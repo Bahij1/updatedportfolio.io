@@ -1,0 +1,47 @@
+header{
+	height:100px;
+}
+
+#nameHolder{
+    height:100px;
+    line-height:100px;
+    background-color:#4aaaa5;
+    color:#FFF;
+    text-align:center;
+    font-size:26px;
+}
+
+nav{
+	text-align:center;
+}
+
+nav a{
+	color:#777777;
+     font-size:2vh;
+	line-height:100px;
+}
+
+#mainBody{
+	margin-top:25px;
+}
+
+#mainBody col-sm-6{
+	text-align:center;
+}
+#mainBody img{
+	display:block;
+	width:75%;
+	margin:0px auto;
+}
+
+footer{
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	color:#000000;
+	background-color: #777777;
+     border-top:8px solid #4aaaa5;
+}
+h2{
+	font-size: 15px;
+}

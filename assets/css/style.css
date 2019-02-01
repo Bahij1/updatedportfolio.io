@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    background-color:#e6e6e6;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    background-image: url(../images/wet_snow/wet_snow.png);
+}
+
+.mainBody{
+    width:960px;
+    margin:0px auto 0px auto;
+}
+
+#header{
+    width:100%;
+    background-color:#FFF;
+    border-bottom:2px solid #cccccc;
+}
+
+#innerHead{
+    height:100px;
+    text-align:center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#innerHead h1{
+    width:250px;
+    height:100px;
+    line-height:100px;
+    background-color:#4aaaa5;
+    color:#FFF;
+    float:left;
+    margin:0px;
+}
+
+#nav{
+    float:right;
+}
+
+#nav a{
+    display:block; /* ALLOWS YOU TO USE WIDTH/HEIGHT ON A TAGS */
+    text-decoration:none; 
+    line-height:100px;
+    color:#777777;
+    font-size:20px;
+    width:100px;
+    float:right;
+}
+
+.borderLeftRight{
+    border-left:1px solid #777777;
+    border-right:1px solid #777777;
+}
+.bodyContent{
+    background-color:#FFF;
+    margin-top:50px; 
+    border: 1px solid #cccccc;
+    overflow:hidden; /* MAKES THE DIV THE FULL HEIGHT EVEN THOUGH IMG IS FLOATED */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40;
+}
+
+.bodyContent img{
+    float:left;
+    margin:15px; 
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+    color:black;
+    border-top:8px solid #4aaaa5;
+    width:100%;
+    text-align: center; 
+    background-color: #777777;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+    
+
+
+
+
+
+
